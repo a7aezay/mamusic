@@ -1,0 +1,7 @@
+#!/usr/bin/env python3
+-*- mode: python -*-
+
+from ytmusicapi import YTMusic
+YTMusic.setup(filepath="headers_auth.json")
+
+ytmusic = YTMusic()
